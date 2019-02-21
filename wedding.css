@@ -25,7 +25,7 @@ img,
 }
 
 .cover {
-	background: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg)      center fixed;
+	background: url(assets/wedding-landing-cover.jpg)      center fixed;
   display:table;
   background-size: cover;
   width: 100%;
