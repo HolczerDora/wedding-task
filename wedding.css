@@ -23,12 +23,15 @@ img,
   font-size: 1.125rem;
   line-height: 1.5;
   color: #444349;
+	background: url(assets/wedding-landing-background.png);
+	
 }
 
 .cover {
-	background: url(assets/wedding-landing-cover.jpg) 70% center fixed no-repeat;
+	background: url(assets/wedding-landing-cover.jpg)70% center fixed no-repeat;
   display: table;
   background-size: cover;
+	background-attachment: scroll;
   width: 100%;
   height: 100vh;
   text-align: center;
@@ -38,12 +41,11 @@ img,
   display: table-cell;
 	vertical-align: middle;
 	letter-spacing: .1rem;
-
 }
 
-.rectangle {
+.rectangle{
 	margin: 0 auto;
-  padding: .625rem;
+  padding: 1.625rem;
   color: hsla(0,0%,100%,.9);
   background: hsla(100,0%,0%,.5);
 }
@@ -68,7 +70,8 @@ img,
 	font-size: 3rem;
 	color: #d2ba87;
   margin-bottom: 0;
-	padding-bottom: 20px;
+	padding-bottom: 1.5rem;
+	font-weight: 500;
 	}
   
 .date {
@@ -87,3 +90,75 @@ img,
   vertical-align: middle;
   margin: 0 .5rem;
 }
+
+.locations,.program {
+	background: url(assets/wedding-landing-background.png);
+	width: 100%;
+  height: 100vh;
+	display: table;
+  text-align: center;
+	padding: 2.5rem 0;
+}
+
+.locations,.program {
+	font-family: 'Great Vibes', cursive;
+	font-size: 3rem;
+	color: #444349;
+  margin-bottom: 0;
+	padding-bottom: 3rem;
+	text-align: center;
+	font-weight: 500;
+}
+
+.program h2{
+	color: #d2ba87;
+	font-weight: 500;
+	letter-spacing: .1rem;
+}
+
+ .content h3 {
+	font-family:'Libre Baskerville', serif;
+	font-size: 1.5rem;
+	color: #444349;
+	padding: 2.5rem; 
+}
+
+ .content img {
+	width: 120px;
+	height: 120px;
+}
+
+.content div {
+	font-family: 'Muli', sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+.content::after {
+  display: block;
+  content: "";
+  background-color: #444349;
+  height: 3px;
+  width: 6.5rem;
+  margin: .8rem auto;
+}
+
+.citation {
+	font-family: 'Muli', sans-serif;
+	font-size: 1.1rem;
+  color: #d2ba87;
+	padding: 1.625rem 0;
+	font-weight: 500;
+	line-height: 1.5rem;
+	display: block;
+	text-align: left;
+}
+
+.citation h3 {
+	font-style: italic;
+	padding: 1.625rem 0;
+	
+}
+
+
+
