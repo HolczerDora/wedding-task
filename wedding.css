@@ -91,28 +91,25 @@ img,
   margin: 0 .5rem;
 }
 
-.locations,.program,.gifts,.questions_answers {
+.locations,.program,.gifts,.questions_answers,.footer,.contact {
 	background: url(assets/wedding-landing-background.png);
 	width: 100%;
-  height: 100vh;
+  height: 55vh;
 	display: table;
   text-align: center;
-	padding: 2.5rem 0;
+	padding: 2.0rem 0;
 }
 
-.locations,.program,.gifts,.questions_answers {
+.locations,.program,.questions_answers,.contact,.gifts {
 	font-family: 'Great Vibes', cursive;
 	font-size: 3rem;
 	color: #444349;
   margin-bottom: 0;
-	padding-bottom: 3rem;
 	text-align: center;
 	font-weight: 500;
 }
 
-.gifts, .questions_answers {
-	margin-top: -20rem;
-}
+
 
 .program h2,.questions_answers h2{
 	color: #d2ba87;
@@ -211,6 +208,36 @@ img,
   width: 12.515625rem;
   margin: 1rem auto;
 }
+
+a {
+	color: #bd806e;
+	text-decoration: none;
+}
+
+a:hover {
+	#eda087;
+}
+
+.wrapper {
+	display: table-cell;
+	min-height: 100vh;
+  position: relative;
+}
+
+.footer {
+	position: absolute;
+	display:table;
+	font-family: 'Muli', sans-serif;
+	text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+	padding: 0px;
+}
+
+
+
 
 
 
